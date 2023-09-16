@@ -13,9 +13,9 @@ salvaged from a retired T61, and a Raspberry Pi Pico H. Components on the BOM:
 Based on work by thedalles77 (schematics) and WarhawkCZ (QMK variant). HDR also
 had the same idea of having the keyboard connector and the MCU module on
 opposite sides to save space.
-https://github.com/thedalles77/USB_Laptop_Keyboard_Controller/tree/master/Example_Keyboards/Lenovo_ThinkPad_T61/Teensy%20LC
-https://forum.thinkpads.com/viewtopic.php?t=134293
-https://github.com/HDR/USB_Laptop_Keyboard_Controller
+- https://github.com/thedalles77/USB_Laptop_Keyboard_Controller/tree/master/Example_Keyboards/Lenovo_ThinkPad_T61/Teensy%20LC
+- https://forum.thinkpads.com/viewtopic.php?t=134293
+- https://github.com/HDR/USB_Laptop_Keyboard_Controller
 
 Thanks @tpcware for the KiCad symbol, footprint and 3D model for the Raspberry
 Pi Pico. I butchered the footprint to get a THT-only variant.
@@ -64,7 +64,7 @@ Footprints:
 
 ## License
 
-Copyright [2023] [Michael Büchler]
+Copyright 2023 Michael Büchler
 SPDX-License-Identifier: Apache-2.0 WITH SHL-2.1
 
 The schematics and PCB design in this repository shall use the Solderpad Hardware License v 2.1 (the “License”); you may not use this file except in compliance with the License, or, at your option, the Apache License version 2.0. You may obtain a copy of the License at
