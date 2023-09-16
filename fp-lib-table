@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "T61_Kb_Scanner")(type "KiCad")(uri "$(KIPRJMOD)/T61_Kb_Scanner.pretty")(options "")(descr ""))
+)

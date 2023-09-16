@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "T61_Keyboard_by_WarhawkCZ")(type "KiCad")(uri "${KIPRJMOD}/T61_Keyboard_by_WarhawkCZ.kicad_sym")(options "")(descr ""))
+)
