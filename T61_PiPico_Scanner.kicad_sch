@@ -4429,12 +4429,6 @@
 		(uuid "5fd6059d-81b2-428b-9d74-f37a343d0370")
 	)
 	(junction
-		(at 217.17 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d0440a6-9568-4d48-ac64-d9d73077a525")
-	)
-	(junction
 		(at 217.17 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4451,12 +4445,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b29a655d-fa6e-43d2-a99e-6d4f9ceb74fa")
-	)
-	(junction
-		(at 199.39 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c21f9fc5-69d2-45a2-ba6b-f0f874649eea")
 	)
 	(junction
 		(at 125.73 68.58)
@@ -4499,8 +4487,16 @@
 		(uuid "0309186b-b6ff-476d-bef6-eaaaa878358b")
 	)
 	(no_connect
+		(at 201.93 123.19)
+		(uuid "17f71b3f-9e00-4de9-babb-7b9a3c7d619a")
+	)
+	(no_connect
 		(at 88.9 121.92)
 		(uuid "53f7d9b7-2c23-41c7-833d-77db5c0f974d")
+	)
+	(no_connect
+		(at 201.93 64.77)
+		(uuid "635d4e75-9097-45bb-b9bf-e5fb0ce49b91")
 	)
 	(no_connect
 		(at 109.22 93.98)
@@ -4539,12 +4535,20 @@
 		(uuid "e2a2ae5e-ae8d-4124-a01e-aebcef8a4058")
 	)
 	(no_connect
+		(at 214.63 64.77)
+		(uuid "ea750c51-9841-441d-8ed2-ed1df006e2dc")
+	)
+	(no_connect
 		(at 93.98 121.92)
 		(uuid "ed627308-dde7-416d-8b24-62d0f39e1ef1")
 	)
 	(no_connect
 		(at 214.63 102.87)
 		(uuid "f5a2b9c8-9a39-4c2a-b4e2-2b29f87b3077")
+	)
+	(no_connect
+		(at 214.63 123.19)
+		(uuid "fbdb6857-b10d-471a-b859-da92477b8d87")
 	)
 	(wire
 		(pts
@@ -4588,16 +4592,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 64.77) (xy 214.63 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "049b7f0c-4a0f-4a70-856c-8aac6e6bdd5e")
-	)
-	(wire
-		(pts
 			(xy 111.76 186.69) (xy 106.68 186.69)
 		)
 		(stroke
@@ -4608,7 +4602,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 110.49) (xy 199.39 123.19)
+			(xy 199.39 110.49) (xy 199.39 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4665,16 +4659,6 @@
 			(type default)
 		)
 		(uuid "14bde034-0cfa-4b90-91e7-7404d37491d6")
-	)
-	(wire
-		(pts
-			(xy 199.39 125.73) (xy 199.39 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14d3f782-fcd6-4e89-b563-fdd4f7bf4927")
 	)
 	(wire
 		(pts
@@ -5108,16 +5092,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 125.73) (xy 217.17 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a7bd851-da2c-4b0c-8dd9-27d5da936eab")
-	)
-	(wire
-		(pts
 			(xy 60.96 83.82) (xy 73.66 83.82)
 		)
 		(stroke
@@ -5248,16 +5222,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 123.19) (xy 214.63 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b936975-d0d1-481b-9fc6-a3715d830150")
-	)
-	(wire
-		(pts
 			(xy 214.63 72.39) (xy 231.14 72.39)
 		)
 		(stroke
@@ -5295,16 +5259,6 @@
 			(type default)
 		)
 		(uuid "813c19ca-a0e6-4b01-92f4-1020a0fd4396")
-	)
-	(wire
-		(pts
-			(xy 199.39 123.19) (xy 201.93 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82442372-7a89-42ea-a34e-295cb6be99c4")
 	)
 	(wire
 		(pts
@@ -5405,16 +5359,6 @@
 			(type default)
 		)
 		(uuid "9c851277-6a69-4a21-841f-e9caeccff838")
-	)
-	(wire
-		(pts
-			(xy 201.93 64.77) (xy 199.39 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d98a7bc-820b-4761-b157-04061d505ca5")
 	)
 	(wire
 		(pts
@@ -5708,7 +5652,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 123.19) (xy 217.17 107.95)
+			(xy 217.17 107.95) (xy 217.17 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7562,7 +7506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "T61_Kb_Scanner:RPi_Pico_H"
+		(property "Footprint" "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH"
 			(at 91.44 92.71 90)
 			(effects
 				(font
