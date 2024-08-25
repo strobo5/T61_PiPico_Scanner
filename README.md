@@ -1,7 +1,7 @@
 Keyboard scanner for a Thinkpad T61 keyboard, using the original connector,
 salvaged from a retired T61, and a Raspberry Pi Pico H. Components on the BOM:
 
-* 1x JAE Electronics AA01B-S040VA1
+* 1x Molex 54363-0489 (WM6787CT-ND on Digikey)
 * 1x Raspberry Pi Pico H (or WH)
 * 1x capacitor SMD 0603 2.2 uF
 * 1x capacitor SMD 0603 100 nF
@@ -55,12 +55,14 @@ The following components in this repository are not my work:
 Symbols:
 
 * AA01B-S040VA1 - probably by Jiri Panacek (WarhawkCZ)
+* Molex_54363-0489:543630489 - Copyright held by EMA Design Automation, ® Inc., all rights reserved
 
 Footprints:
 
 * T61_Kb_Scanner:RPi_Pico_H - adapted from the one by @tpcware
 * T61_Kb_Scanner:AA01B-S040VA1 - unknown
 * T61_Kb_Scanner:WM6787CT-ND - unknown
+* Molex_54363-0489:CON_543630489 - Copyright held by EMA Design Automation, ® Inc., all rights reserved
 
 ## License
 
