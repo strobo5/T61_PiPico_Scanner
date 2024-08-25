@@ -1517,7 +1517,143 @@
 				)
 			)
 		)
-		(symbol "T61_Keyboard_by_WarhawkCZ:AA01B-S040VA1-jip_connectors"
+		(symbol "Power_Supervisor:TLV810EA29DBZ"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV810EA29DBZ"
+				(at 10.16 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv803e.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "push-pull, active-high, 200mS reset delay, 2.93V threshold voltage, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "voltage supervisor low power small size"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV810EA29DBZ_1_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "V_{DD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "T61_Keyboard_by_WarhawkCZ:54363-0489"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -1531,7 +1667,7 @@
 					)
 				)
 			)
-			(property "Value" "jip_connectors_AA01B-S040VA1"
+			(property "Value" "54363-0489"
 				(at 6.35 3.81 0)
 				(effects
 					(font
@@ -1539,7 +1675,7 @@
 					)
 				)
 			)
-			(property "Footprint" "jip_connectors:AA01B-S040VA1"
+			(property "Footprint" "T61_Kb_Scanner:WM6787CT-ND"
 				(at 6.35 -62.23 0)
 				(effects
 					(font
@@ -1566,7 +1702,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AA01B-S040VA1-jip_connectors_1_1"
+			(symbol "54363-0489_1_1"
 				(rectangle
 					(start 3.81 -58.293)
 					(end 5.08 -58.547)
@@ -4542,16 +4678,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 152.4) (xy 270.51 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a248fe2-02f5-4aad-960a-22694353a956")
-	)
-	(wire
-		(pts
 			(xy 125.73 50.8) (xy 116.84 50.8)
 		)
 		(stroke
@@ -4649,6 +4775,16 @@
 			(type default)
 		)
 		(uuid "26ade8d9-4c04-4455-8870-40b7a9efc89b")
+	)
+	(wire
+		(pts
+			(xy 257.81 153.67) (xy 257.81 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "293b2332-0ffe-4b9f-8cf5-3270b5531982")
 	)
 	(wire
 		(pts
@@ -5192,7 +5328,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 129.54) (xy 270.51 132.08)
+			(xy 257.81 129.54) (xy 257.81 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5582,16 +5718,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 139.7) (xy 270.51 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf613847-6cb6-4ea4-bb1f-e5d8e3f7952a")
-	)
-	(wire
-		(pts
 			(xy 123.19 82.55) (xy 125.73 82.55)
 		)
 		(stroke
@@ -5619,6 +5745,16 @@
 			(type default)
 		)
 		(uuid "d9af88e2-c990-42a9-bb79-22f6a867f9fd")
+	)
+	(wire
+		(pts
+			(xy 267.97 143.51) (xy 270.51 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca1e1c1-4ef3-4cea-9298-406473095206")
 	)
 	(wire
 		(pts
@@ -5835,16 +5971,15 @@
 		)
 		(uuid "49e52dbe-7174-4d85-a6c3-6f08d95bd48c")
 	)
-	(text "reuse stock (no 100k).\nR*C is 50ms - sufficient?"
+	(text "version 1.2: use a voltage supervisor\nto reset the trackpoint. HDR used a\nTLV810, this one's cheaper."
 		(exclude_from_sim no)
-		(at 242.57 154.94 0)
+		(at 262.636 121.666 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "71457dce-758e-403e-b3b3-45705fa556a0")
+		(uuid "823b91a3-3d1e-4e29-8d4e-77aedcce6455")
 	)
 	(text "not sure what I'm doing"
 		(exclude_from_sim no)
@@ -5856,17 +5991,6 @@
 			(justify left bottom)
 		)
 		(uuid "9b4fa2f5-24cc-429b-8a9f-60f0a3a867ff")
-	)
-	(text "consider routing this to an I/O\nfor MCU override (like WarhawkCZ\nbut with another MOSFET inbetween)"
-		(exclude_from_sim no)
-		(at 267.97 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fd32ed43-b3f4-43fb-92c2-6a41ad88fc14")
 	)
 	(label "HOTKEY"
 		(at 231.14 69.85 180)
@@ -6220,17 +6344,6 @@
 		)
 		(uuid "75f95f33-109f-4d79-9101-b6a812f3b842")
 	)
-	(label "TP4_RESET"
-		(at 270.51 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7738ceeb-f509-4ea0-a6e8-f563f952406e")
-	)
 	(label "TP4CLK_3V3"
 		(at 60.96 71.12 0)
 		(fields_autoplaced yes)
@@ -6572,6 +6685,17 @@
 		)
 		(uuid "eaab08d1-3fa8-41ce-84df-2753cccd3670")
 	)
+	(label "TP4_RESET"
+		(at 270.51 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0f9a946-45e4-4a13-8d8a-5c50de2e192e")
+	)
 	(label "SENSE1"
 		(at 121.92 91.44 180)
 		(fields_autoplaced yes)
@@ -6674,76 +6798,6 @@
 			(project "T61_PiPico_Scanner"
 				(path "/b0343a85-e064-4b53-b93e-4d6b57b76335"
 					(reference "GOLD_ORB_SM101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 270.51 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "134bfbb4-47cd-4367-99f3-79cc30f2b7c1")
-		(property "Reference" "C103"
-			(at 273.431 134.6779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2u2"
-			(at 273.431 137.1021 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 271.4752 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dcf764f-da9e-4951-bec5-945fa9c4bc86")
-		)
-		(pin "2"
-			(uuid "5231dab6-1928-47aa-9026-a28aab34bb5d")
-		)
-		(instances
-			(project "T61_PiPico_Scanner"
-				(path "/b0343a85-e064-4b53-b93e-4d6b57b76335"
-					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -7853,205 +7907,6 @@
 		)
 	)
 	(symbol
-		(lib_id "T61_Keyboard_by_WarhawkCZ:AA01B-S040VA1-jip_connectors")
-		(at 201.93 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54924508-2493-4466-a4b0-07c2851e09ca")
-		(property "Reference" "J?"
-			(at 208.28 57.9882 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AA01B-S040VA1"
-			(at 208.28 60.2996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "T61_Kb_Scanner:AA01B-S040VA1"
-			(at 208.28 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "534b7708-0669-4217-bc77-7ee141936601")
-		)
-		(pin "10"
-			(uuid "2dd3ff86-9a0c-4f95-b040-aecd66632662")
-		)
-		(pin "11"
-			(uuid "c4e57526-4514-49c4-a726-237e2c7a9673")
-		)
-		(pin "12"
-			(uuid "f872c589-014c-458a-8b21-776aebe96be0")
-		)
-		(pin "13"
-			(uuid "ef3d28bd-000b-4f0b-9734-de4749e33f07")
-		)
-		(pin "14"
-			(uuid "f671c04f-e60d-42fa-9f58-607a3db0c63f")
-		)
-		(pin "15"
-			(uuid "30fbf2fe-a0a7-4612-a8a5-e90118e50fda")
-		)
-		(pin "16"
-			(uuid "6542ecb4-47dc-468d-8f40-8115ad7b24e1")
-		)
-		(pin "17"
-			(uuid "3c1e185f-93bd-40ef-b4b2-3ec6aa9cf742")
-		)
-		(pin "18"
-			(uuid "32e1f076-091a-4765-90fc-1cec3b2807fd")
-		)
-		(pin "19"
-			(uuid "f34ee040-a4d0-4ac3-948d-b91d6c306c61")
-		)
-		(pin "2"
-			(uuid "1669ce4b-9e2e-4129-9dbc-f940064b4ec4")
-		)
-		(pin "20"
-			(uuid "ab675f09-9c4e-4540-8cda-55e2bf47f085")
-		)
-		(pin "21"
-			(uuid "ba92fac1-0763-4df9-b8a7-02ae5168a986")
-		)
-		(pin "22"
-			(uuid "8143ff1d-1f92-49cb-96e6-91c154160697")
-		)
-		(pin "23"
-			(uuid "327e895e-6583-4d2c-9bec-cc9cc91909d6")
-		)
-		(pin "24"
-			(uuid "c6da0f9c-c331-4334-8e75-59450e111e29")
-		)
-		(pin "25"
-			(uuid "ca99cb92-2fd9-44f6-a36b-56d14e4ce097")
-		)
-		(pin "26"
-			(uuid "5cb1dfe6-4903-4719-9365-376a0af52208")
-		)
-		(pin "27"
-			(uuid "b297cf4f-35a1-4c87-be98-d5cdbf2f07a1")
-		)
-		(pin "28"
-			(uuid "486d781a-700f-4e4d-90da-dee956c3ded5")
-		)
-		(pin "29"
-			(uuid "89a8af78-e618-43f5-aceb-11fffe9ec532")
-		)
-		(pin "3"
-			(uuid "2af60e52-136c-48ef-bdcd-3436d2fda5ea")
-		)
-		(pin "30"
-			(uuid "d6bc3d67-0b50-4ddd-a7cd-63a2263354a0")
-		)
-		(pin "31"
-			(uuid "b64caa90-1cbd-4500-b545-69c455ddce69")
-		)
-		(pin "32"
-			(uuid "4209ff33-ce2f-4caa-b464-51c550972b3e")
-		)
-		(pin "33"
-			(uuid "c0438cc5-1cd9-4b4d-a25d-027122d51ceb")
-		)
-		(pin "34"
-			(uuid "9f5e91df-1a14-4cc9-992b-8ed663f8167c")
-		)
-		(pin "35"
-			(uuid "0cd83013-e82d-40af-8931-8d2ff47a7880")
-		)
-		(pin "36"
-			(uuid "1963e690-9ee2-434e-9759-c9b90fbb1292")
-		)
-		(pin "37"
-			(uuid "5db5e819-2a87-44fb-b9a4-21ab645dafff")
-		)
-		(pin "38"
-			(uuid "c9dee9d9-8961-414c-87f5-2c92df0a250f")
-		)
-		(pin "39"
-			(uuid "226d9236-173c-4e51-871b-f8da7932104a")
-		)
-		(pin "4"
-			(uuid "06a040ab-9551-456e-8106-de1004e85e4b")
-		)
-		(pin "40"
-			(uuid "abe39a35-9c27-4fc1-9f1e-b4f5f0e50b57")
-		)
-		(pin "41"
-			(uuid "ed7dcf74-a0c6-4c2a-84d2-e34ae347467c")
-		)
-		(pin "42"
-			(uuid "2ef5c16d-7463-44ae-8360-aec4bcdb97d3")
-		)
-		(pin "43"
-			(uuid "6fd77a16-73ed-45c7-b8b3-80d52788ad20")
-		)
-		(pin "44"
-			(uuid "d2605c6c-66f8-48e6-b988-97035f54538b")
-		)
-		(pin "5"
-			(uuid "5c6d3743-35d5-49b2-a300-08abab70315a")
-		)
-		(pin "6"
-			(uuid "46c6d444-4641-4ed9-8938-d7ff68f93c21")
-		)
-		(pin "7"
-			(uuid "1fd64427-d113-4ac3-a232-1e41730df10b")
-		)
-		(pin "8"
-			(uuid "25865078-92b8-45c6-b4b9-583ff11f11c8")
-		)
-		(pin "9"
-			(uuid "42b35d22-d9ab-47f5-91cc-ab16c147720f")
-		)
-		(instances
-			(project "t61-qmk-usb-keyboard"
-				(path "/a54c377f-d666-4b7f-889a-fc746e1e2c39"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-			(project "T61_PiPico_Scanner"
-				(path "/b0343a85-e064-4b53-b93e-4d6b57b76335"
-					(reference "J107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 166.37 49.53 0)
 		(unit 1)
@@ -8262,6 +8117,200 @@
 		)
 	)
 	(symbol
+		(lib_id "T61_Keyboard_by_WarhawkCZ:54363-0489")
+		(at 201.93 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bf8c4c2-e7ce-4a8a-bc4e-fbb55457d350")
+		(property "Reference" "J107"
+			(at 208.28 58.0855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "54363-0489"
+			(at 208.28 60.5098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Molex_54363-0489:CON_543630489_var"
+			(at 208.28 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "33"
+			(uuid "db15b1a2-5d5a-499a-916e-339869ce2d70")
+		)
+		(pin "12"
+			(uuid "534962b0-9e93-4acf-9fc4-80001e53fe08")
+		)
+		(pin "29"
+			(uuid "e7d72003-4c08-4cc3-981b-789cfa9b0612")
+		)
+		(pin "27"
+			(uuid "2e1524e3-ae48-450b-bf77-a124bbc94be7")
+		)
+		(pin "30"
+			(uuid "dc3bf358-5414-4196-bab5-2020ed4ab27f")
+		)
+		(pin "20"
+			(uuid "bcc55ebb-36b4-410e-ac3d-6f63b8b06f55")
+		)
+		(pin "21"
+			(uuid "79607d09-64dc-4866-b777-fef2986d045f")
+		)
+		(pin "32"
+			(uuid "1282c5d1-7075-4fd2-83b5-ebc373dbd56b")
+		)
+		(pin "23"
+			(uuid "ee4ad0e9-d5fa-4348-8d7a-2b462b161cd2")
+		)
+		(pin "26"
+			(uuid "70cf319b-09b0-4ca6-87eb-eb555682055d")
+		)
+		(pin "44"
+			(uuid "2df1364d-147f-47a2-a51d-92acc6f5fdc0")
+		)
+		(pin "7"
+			(uuid "cf601d22-1588-4cb2-8bee-f78d54d6b7b0")
+		)
+		(pin "6"
+			(uuid "5e6e1f51-871f-45c7-863c-53ae9f3188c4")
+		)
+		(pin "37"
+			(uuid "1a79a8da-ae80-4bf3-a776-0185d0393f6c")
+		)
+		(pin "41"
+			(uuid "cdd71814-d0ca-443c-8de9-fc76dbab50f9")
+		)
+		(pin "3"
+			(uuid "925eec65-2f00-497d-9ce2-7b9bff489d46")
+		)
+		(pin "18"
+			(uuid "8c1959f5-14a2-4429-8b77-e5676ea5c535")
+		)
+		(pin "28"
+			(uuid "77c8a760-37e0-4403-88e7-96ccef2fcb84")
+		)
+		(pin "31"
+			(uuid "cd5463b4-0a7f-4b1a-9a6e-680883f78fdf")
+		)
+		(pin "2"
+			(uuid "42ea9619-7a5d-4bb3-aa8f-613527c89e92")
+		)
+		(pin "36"
+			(uuid "ae0e6457-b19f-4ac5-aef0-9e39d42ad1f1")
+		)
+		(pin "24"
+			(uuid "c3173890-7e2a-4661-bdff-f7ed71724496")
+		)
+		(pin "9"
+			(uuid "60084ec4-fe3f-45ec-bb55-963ea132b979")
+		)
+		(pin "25"
+			(uuid "4cf6c800-4298-405e-987f-b37cbab096ec")
+		)
+		(pin "13"
+			(uuid "7c75318e-4d9d-4465-abd8-de3f79717196")
+		)
+		(pin "15"
+			(uuid "f1b6598d-a48f-4b4c-96e9-84ab90753f03")
+		)
+		(pin "14"
+			(uuid "e7a0326d-a081-4145-a584-c598914e888a")
+		)
+		(pin "19"
+			(uuid "f43f3047-1d7f-4a44-82ff-1d68f71a214c")
+		)
+		(pin "43"
+			(uuid "2ac5ba99-9b98-4b6e-bf60-4fa54ee1bf9f")
+		)
+		(pin "39"
+			(uuid "8e8d9757-395a-460d-89a1-906e97230fe2")
+		)
+		(pin "4"
+			(uuid "d3e3a629-6c9f-4bd7-889a-2d1d90dfc03d")
+		)
+		(pin "38"
+			(uuid "0867994d-ca92-4b17-b138-a3be575003ac")
+		)
+		(pin "34"
+			(uuid "c80517ea-145b-4dd0-ace5-09bf1a134bcb")
+		)
+		(pin "22"
+			(uuid "93e55769-1fc1-44b1-b21f-3f3f671371e5")
+		)
+		(pin "35"
+			(uuid "834507a9-8a2d-4aea-9f1c-8f6c9a7ffb83")
+		)
+		(pin "17"
+			(uuid "6196a13c-97a4-4b34-8d97-7f828ebf2016")
+		)
+		(pin "5"
+			(uuid "2bc3c762-0f2d-4a8c-9438-faee8b3f5670")
+		)
+		(pin "1"
+			(uuid "9b3c4264-c647-41cc-af04-4dc6a51a62f6")
+		)
+		(pin "42"
+			(uuid "75177a53-8ca1-457f-9d7e-e2a4583b7f08")
+		)
+		(pin "10"
+			(uuid "a7b3fdf8-1fba-4fbb-bdf7-2bfedb7be308")
+		)
+		(pin "40"
+			(uuid "fbf574be-d12b-415a-a5bf-75721333385c")
+		)
+		(pin "16"
+			(uuid "e5b08660-149e-4411-b092-3d8070dbb212")
+		)
+		(pin "8"
+			(uuid "1c1092da-bda5-4a22-81a5-ba8855d48224")
+		)
+		(pin "11"
+			(uuid "bab3ea61-73aa-4471-ae08-c3465e6ebd88")
+		)
+		(instances
+			(project ""
+				(path "/b0343a85-e064-4b53-b93e-4d6b57b76335"
+					(reference "J107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 199.39 125.73 0)
 		(unit 1)
@@ -8446,7 +8495,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 270.51 129.54 0)
+		(at 257.81 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8455,7 +8504,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a3e7ff0-cadb-4030-b0df-2f79c0b2988d")
 		(property "Reference" "#PWR0124"
-			(at 270.51 133.35 0)
+			(at 257.81 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8464,7 +8513,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 270.51 125.4069 0)
+			(at 257.81 125.4069 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,7 +8521,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 129.54 0)
+			(at 257.81 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8481,7 +8530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 129.54 0)
+			(at 257.81 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,7 +8539,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 270.51 129.54 0)
+			(at 257.81 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9255,7 +9304,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 270.51 154.94 0)
+		(at 257.81 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9264,7 +9313,7 @@
 		(fields_autoplaced yes)
 		(uuid "9afd6bc5-36be-4480-8f59-44eaf9d86f0a")
 		(property "Reference" "#PWR0125"
-			(at 270.51 161.29 0)
+			(at 257.81 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9273,7 +9322,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 270.51 159.0731 0)
+			(at 257.81 159.0731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9281,7 +9330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 154.94 0)
+			(at 257.81 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9290,7 +9339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 154.94 0)
+			(at 257.81 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9299,7 +9348,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 270.51 154.94 0)
+			(at 257.81 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9688,6 +9737,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Supervisor:TLV810EA29DBZ")
+		(at 260.35 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8664974-5d48-4aaa-89ca-bbf36f608b40")
+		(property "Reference" "U102"
+			(at 254.5081 142.2978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "APX810S-44SR-7"
+			(at 254.5081 144.7221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 260.35 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv803e.pdf"
+			(at 260.35 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "push-pull, active-high, 200mS reset delay, 2.93V threshold voltage, SOT-23"
+			(at 260.35 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ba0e0619-5656-4ca7-9042-1454ccc7f8b1")
+		)
+		(pin "2"
+			(uuid "ccabbd73-43bc-493c-8615-5772e6499ad0")
+		)
+		(pin "1"
+			(uuid "ecd8b8d3-de45-43d1-b871-ed1126471773")
+		)
+		(instances
+			(project ""
+				(path "/b0343a85-e064-4b53-b93e-4d6b57b76335"
+					(reference "U102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 166.37 62.23 0)
 		(unit 1)
@@ -9951,76 +10073,6 @@
 			(project "T61_PiPico_Scanner"
 				(path "/b0343a85-e064-4b53-b93e-4d6b57b76335"
 					(reference "#FLG0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 270.51 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df2a1aa2-cc51-434a-9174-072bd09e97d3")
-		(property "Reference" "R108"
-			(at 272.288 147.3779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22k"
-			(at 272.288 149.8021 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 268.732 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f196479-a325-4414-9e79-85facdd37dc6")
-		)
-		(pin "2"
-			(uuid "357df2ff-0a82-4fb5-b348-a371df8cc8ca")
-		)
-		(instances
-			(project "T61_PiPico_Scanner"
-				(path "/b0343a85-e064-4b53-b93e-4d6b57b76335"
-					(reference "R108")
 					(unit 1)
 				)
 			)
